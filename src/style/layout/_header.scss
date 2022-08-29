@@ -1,0 +1,21 @@
+.header{
+  border: 1px solid #222;
+  height: 4rem;
+  width: 100%;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+
+  &__logo{
+    @include Center;
+    
+    width: 10%;
+  }
+
+  &__nav{
+    @include Center;
+    border: 1px solid #333;
+    width: 50%;
+  }
+}
