@@ -1,0 +1,23 @@
+.hero{
+  height: calc(100vh - 8rem);
+  display: flex;
+  flex-flow: column nowrap;
+
+  background-color: #1F2937;
+  color: #fff;
+
+  padding: 10rem 5rem;
+
+  &__miniButton{
+    display: flex;
+    width: fit-content;
+    
+    padding: 1rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+    border-radius: 25px;
+
+    background-color: darken(#1F2937, 5%);
+  }
+}
